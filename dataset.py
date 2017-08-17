@@ -1,5 +1,3 @@
-#Cancemi Damiano - W82000075
-
 import os, glob
 import numpy as np
 from skimage import io as sio

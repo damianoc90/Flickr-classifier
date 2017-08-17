@@ -1,5 +1,3 @@
-#Cancemi Damiano - W82000075
-
 import flickrapi
 import urllib, json
 import os, shutil, sys
@@ -7,9 +5,6 @@ from time import time
 
 api_key = 'cacb93cdc983a7b7169b9aa74076bdc9'
 api_secret = '2cf0746a3e52624a'
-
-#api_key = 'fb64d4583a04a5e52cbf5fa757a197a6'
-#api_secret = 'a0ae41dbbd2d3185'
 
 flickr = flickrapi.FlickrAPI(api_key, api_secret)
 

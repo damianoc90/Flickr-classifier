@@ -1,0 +1,56 @@
+body { 
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+html {
+	zoom: .8;
+}
+.logo {
+	margin: 40px 0 0 10px;
+}
+.logo img {
+	height: 60px;
+}
+.logo span {
+	color: white;
+	font-size: 13px;
+	position: relative;
+	top: 24px;
+	left: 0px;
+}
+#class_button {
+	font-size: 20px;
+	width: 120px;
+	margin-top: 40px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+	text-align: center;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+	width: 120px;
+}
+#class_button button {
+	font-size: 16px;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.87);
+	border-color: black;
+}
+#gallery {
+	margin: 20px auto;
+}
+#gallery .item {
+	height: 200px;
+	margin: 10px auto;
+}
+#gallery img.thumbnail {
+	width: 250px;
+	height: 200px;
+	padding: 0 !important;
+	object-fit: cover;
+	background-position: center center;
+	border: 1px solid black;
+}
+.modal-dialog { width:600px; }
+.thumbnail { margin: 0 auto 6px auto; }

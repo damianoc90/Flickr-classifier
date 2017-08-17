@@ -1,5 +1,3 @@
-#Cancemi Damiano - W82000075
-
 # ------------------ IMPORTS ------------------
 import os.path
 import warnings
